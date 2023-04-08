@@ -1,0 +1,24 @@
+:root {
+	--background-color: #f3f3f3;
+	--main-color: #000;
+	--secondary-color: #fff;
+}
+
+
+body {
+	font-family: "Inter", sans-serif;
+	background-color: var(--secondary-color);
+	color: var(--main-color);
+}
+
+button {
+	font-family: inherit;
+	cursor: pointer;
+}
+.container {
+	max-width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
