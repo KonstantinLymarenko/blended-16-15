@@ -1,24 +1,42 @@
 :root {
-	--background-color: #f3f3f3;
-	--main-color: #000;
-	--secondary-color: #fff;
+  --background-color: #f3f3f3;
+  --main-color: #000;
+  --secondary-color: #fff;
 }
 
-
 body {
-	font-family: "Inter", sans-serif;
-	background-color: var(--secondary-color);
-	color: var(--main-color);
+  font-family: 'Inter', sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--main-color);
 }
 
 button {
-	font-family: inherit;
-	cursor: pointer;
+  font-family: inherit;
+  cursor: pointer;
 }
 .container {
-	max-width: 1170px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin-left: auto;
-	margin-right: auto;
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  top: -150%;
+  z-index: -100;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  user-select: none;
+  pointer-events: none;
+  cursor: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  white-space: nowrap;
 }
