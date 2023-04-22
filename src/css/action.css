@@ -1,0 +1,22 @@
+.swiper {
+    width: 900px;
+    height: 600px;
+  }
+  .swiper-pagination-bullet {
+    width: 35px;
+    height: 35px;
+    background-color: yellowgreen;
+    opacity: 0.5;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: green;
+    opacity: 1;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    
+    color: olive;
+    font-weight: 700;
+  }
+  .swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 70px;
+  }
